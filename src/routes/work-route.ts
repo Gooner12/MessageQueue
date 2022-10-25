@@ -1,5 +1,5 @@
 import express from "express";
-import { sendEmail } from "../controllers/workController";
+import { sendEmail } from "../controllers/work-controller";
 
 const expressRouter = express.Router();
 

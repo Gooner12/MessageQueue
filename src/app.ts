@@ -1,7 +1,7 @@
 import express from "express";
 import bodyParser from "body-parser";
 import { router } from "./queues/email-queue";
-import { expressRouter } from "./routes/workRoute";
+import { expressRouter } from "./routes/work-route";
 
 const app: express.Application = express();
 app.use(bodyParser.json());
